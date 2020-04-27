@@ -1,0 +1,20 @@
+{
+  "name": "Copy Image URL",
+  "version": "1.2",
+  "manifest_version": 2,
+  "description": "Copy image source URLs from Google image search",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": [
+      "cisu.js"
+    ]
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
