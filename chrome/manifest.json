@@ -1,6 +1,6 @@
 {
   "name": "Copy Image URL",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Copy image source URLs from Google image search",
   "manifest_version": 2,
   "permissions": [

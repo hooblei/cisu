@@ -27,7 +27,13 @@ const getImageUrl = (info) => {
 }
 
 const copyImageUrlToClipboard = (info, tab) => {
-  writeToClipboard(getImageUrl(info))
+  let imageUrl = getImageUrl(info)
+
+  if (imageUrl === null) {
+    alert('Sorry, Bild-URL konnte nicht kopiert werden. Versuche die Bild-URL aus der Ergebnisliste zu kopieren.')
+  } else {
+    writeToClipboard(imageUrl)
+  }
 }
 
 const ctxItemId = "WL1WvsIUbGDwoS8SaItVU46nemsQZ4Yu"
